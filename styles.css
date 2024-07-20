@@ -1,0 +1,206 @@
+html, body {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default paddings */
+    width: 100%; /* Ensure full width */
+    height: 100%; /* Ensure full height */
+}
+
+.header {
+    
+    height: 100px;
+    background: #1F2937;
+    display:flex;
+    align-items: center;
+    gap: 8px;
+   
+
+  }
+
+  .header .logo{
+    color: white;
+    font-size:xx-large;
+    margin: 20px;
+    margin-right: auto;
+    
+  }
+
+  .header .headerRight {
+    display: flex;
+    margin: 20px;
+    gap: 15px;
+  }
+  .item{
+    color: white;
+  }
+
+
+  .boxTwo {
+    background:#1F2937;
+    align-items: center;
+    gap: 10px;
+    height: 325px;
+    display: flex;
+    justify-content: center;
+    
+    
+
+  }
+
+  .boxTwoI1 {
+    color: white;
+    margin: 50px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+  }
+  
+  .boxTwoI1 .item1 {
+    font-style: oblique;
+    font-size: 48px;
+    font-weight: bolder;
+  }
+
+  .boxTwoI1 .item2 {
+    font-size: 18px;
+  }
+
+  .boxTwo img {
+    margin-right: 50px;
+  }
+
+  .button1 {
+    background-color: #3882F6; /* Blue background */
+    color: white;             /* White text color */
+    border: none;            /* Remove default border */
+    padding: 10px 20px;     /* Adjust padding for size */
+    text-align: center;     /* Center text */
+    font-size: 16px;        /* Font size */
+    border-radius: 5px;    /* Rounded corners */
+    cursor: pointer;       /* Pointer cursor on hover */
+    width: 130px;
+  }
+
+
+
+  .boxThreeI1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .boxThreeI2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 15px;
+
+  }
+
+  .boxThreeI3 {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
+
+  .boxThreeI3 div {
+    width: 175px;
+    height: 50px;
+
+  }
+
+  .boxFour{
+    background-color: #E5E7EB;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .boxFour .I1{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+    width: 700px;
+    
+  }
+
+  .boxFour .I2{
+    font-size: 20px;
+    font-weight: bolder;
+    align-self: self-end;
+    margin-right: 380px;
+    padding: 15px;
+  }
+
+  .boxFive {
+    background-color: white;
+    height: 350px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .sboxFive {
+    background-color: #3882F6 ;
+    display: flex;
+    width: 900px;
+    height:125px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+  }
+
+  .sboxFive .item1, .item2 {
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    text-align:left;
+  }
+
+  .sboxFive .item2{
+    font-size: small;
+    text-align: center;
+    margin-left: 8px;
+  }
+
+  .sboxFive .item1 {
+    padding: 8px;
+  }
+
+  .sboxFive .button1{
+
+    border: 2px solid white;
+    margin-left: 90px;
+  
+  }
+
+  .footer {
+    background-color:#1F2937 ;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height:80px;
+  }
+  
